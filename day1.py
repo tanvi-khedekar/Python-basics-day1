@@ -34,11 +34,40 @@
 # Write a Program to convert minutes into hours and print it 
 # example : 135 is 2 hours 15 minutes
 
-time = int(input("Enter time in minutes convert it into hours: "))
-print(f"{time} is {time//60} hours {time%60} minutes")
+#time = int(input("Enter time in minutes convert it into hours: "))
+#print(f"{time} is {time//60} hours {time%60} minutes")
 
 # Write a program to extract the last digit of a number
 # OUTPUT = 1234 : last digit is 4
 
-number = int(input("Enter number"))
-print(number, )
+#number = int(input("Enter number: "))
+#print(number, ": Last digit is ", number % 10)
+
+#do it using string
+
+#write a program to check if a person is eligible for discount the criteria if he must be a student and age must be below 21
+#WITHOUT IF ELSE
+#input values to take are role and age
+#example : ELigible : True
+
+
+
+#role = input("Enter role: ")
+#age = int(input("Enter age: "))
+
+#eligible = role == "student" and age < 21
+
+#print("Eligible: ", eligible)
+
+#write a program to swap two variables without using a third variable, using arithmetic operations
+#example : before swap a = 10, b= 20
+#after swap a = 20, b = 10
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+
+print("Before swap: a =", a, ",b =", b)
+
+a, b = b, a
+
+print("After swap: a =", a, "b =", b)
