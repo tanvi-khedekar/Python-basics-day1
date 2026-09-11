@@ -1,4 +1,4 @@
-#write a code to 
+#write a code to check if person is eligible to drive, age should be greater than 18
 
 #age = input("Enter age: ")
 #if int(age) > 18:
